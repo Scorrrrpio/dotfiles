@@ -1,0 +1,8 @@
+xterm*Background: black
+xterm*Foreground: green
+XTerm*selectToClipboard: true
+
+XTerm*VT100.translations: #override \n\
+	Ctrl Shift <KeyPress>C: copy-selection(CLIPBOARD) \n\
+	Ctrl Shift <KeyPress>V: insert-selection(CLIPBOARD) \n\
+
